@@ -1,11 +1,12 @@
 # my_VbaRegistry
-Auslesen von Registry_Keys und Prüfung, ob bestimmte Schlüssel vorhanden sind
+Auslesen von Registry_Keys und Prüfung per WindowsScripting_Host
 
 # Verwendung/Setup
 
 # Beispiele 
-Schlüssel auslesen<br>
-https://github.com/berlin-braun/my_VbaObject/blob/main/example/example_FileSystemObject.bas
+Schlüssel auslesen - TMP-Verzeichnis<br>
+Debug.Print registry_Key_Read("HKEY_CURRENT_USER\Environment\TMP")
 
-Schlüssel prüfen<br>
-https://github.com/berlin-braun/my_VbaObject/blob/main/example/example_Drive.bas
+Schlüssel prüfen - Netzlaufwerk H vorhanden<br>
+Debug.Print registry_Key_Exists("HKEY_CURRENT_USER\Network\H\RemotePath")
+
