@@ -1,4 +1,4 @@
-Attribute VB_Name = "mod_Registry"
+Attribute VB_Name = "mdl_Registry"
 Option Compare Database
 Option Explicit
 
